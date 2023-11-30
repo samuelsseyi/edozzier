@@ -1,0 +1,15 @@
+body{
+  overflow-x
+  : hidden;
+}
+
+.nodisplay {
+  padding: auto;
+}
+
+@media screen and (max-width: 600px){
+  .nodisplay{
+    display: none;
+  }
+  
+}
